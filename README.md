@@ -136,20 +136,6 @@ streamlit run app.py
 * LLM integration and prompt engineering
 * Debugging real-world AI applications
 
----
 
-## 📸 Demo
-
-(Add screenshots or demo GIF here)
-
----
-
-## 🤝 Contribution
-
-Feel free to fork this repository and contribute!
-
----
-
-## 📜 License
 
 This project is open-source and available under the MIT License.
