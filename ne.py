@@ -79,7 +79,7 @@ Question:
 
     response = requests.post(url, headers=headers, json=payload)
 
-    # 🔥 error handling
+    #  error handling
     if response.status_code != 200:
         return f"API Error: {response.text}"
 
@@ -91,7 +91,7 @@ if uploaded_file:
     with open("temp.pdf", "wb") as f:
         f.write(uploaded_file.read())
 
-    st.success("✅ PDF uploaded successfully!")
+    st.success(" PDF uploaded successfully!")
 
     vectordb = process_pdf("temp.pdf")
 
